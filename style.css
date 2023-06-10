@@ -3,15 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-button {
-    display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
+body {
+   background-image: url(Luffy.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
 }
-.fondo-inicio {
-    background-image: url(Luffy.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+.contenedor-boton :hover {
+    filter: drop-shadow(0 -10px 5px rgba(255, 196, 0, 0.7));
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+img{
+    filter: drop-shadow(0 -10px 20px rgba(0,0,0, 0.7));
 }
