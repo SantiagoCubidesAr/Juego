@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+.fondo-inicio {
+    background-image: url(/Luffy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
