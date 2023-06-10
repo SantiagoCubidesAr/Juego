@@ -10,7 +10,7 @@ button {
     justify-content: center;
 }
 .fondo-inicio {
-    background-image: url(/Luffy.jpg);
+    background-image: url(Luffy.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
