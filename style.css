@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-   background-image: url(Luffy.jpg);
+.fondo-inicio {
+   background-image: url(200w.gif);
    background-size: cover;
    background-repeat: no-repeat;
 }
@@ -17,9 +17,45 @@ body {
 .contenedor-boton :hover {
     filter: drop-shadow(0 -10px 5px rgba(255, 196, 0, 0.7));
     opacity: 0.7;
-    transition: 0.5s;
+    transition: 0.1s;
 }
 
 img{
     filter: drop-shadow(0 -10px 20px rgba(0,0,0, 0.7));
+}
+.ataques-luffy {
+    display: flex;
+    justify-content: center;
+}
+.puño {
+    width: 15vh;
+    height: 15vh;
+}
+.patada {
+    width: 15vh;
+    height: 15vh;
+}
+.cabezaso {
+    width: 15vh;
+    height: 15vh;
+}
+.luffy {
+    width: 70vh;
+    height: 70vh;
+}
+.ataques-luffy {
+    position: absolute;
+}
+.ataques-enemigo {
+    display: flex;
+    justify-content: center;
+}
+.enemigo {
+    width: 70vh;
+    height: 70vh;
+}
+.fondo-pelea {
+    background-image: url(200w.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

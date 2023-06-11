@@ -1,8 +1,8 @@
-const inicio = document.getElementById('boton-inicio')
+const inicio = document.getElementById('pelea')
 
 function iniciar(evento) {
     evento.preventDefault();
-    console.log('hola mundo');
+    
 }
 
 inicio.addEventListener('click',iniciar)
