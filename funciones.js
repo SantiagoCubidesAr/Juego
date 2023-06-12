@@ -1,7 +1,6 @@
-const inicio = document.getElementById('pelea')
+const inicio = document.getElementById('ataque')
 
 function iniciar(evento) {
-    evento.preventDefault();
     
 }
 
