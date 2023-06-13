@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .fondo-inicio {
-   background-image: url(200w.gif);
+   background-image: url(giphy.gif);
    background-size: cover;
    background-repeat: no-repeat;
 }
@@ -13,49 +13,81 @@
     justify-content: center;
     margin-top: 30vh;
 }
-
-.contenedor-boton :hover {
+.contenedor-boton :hover{
     filter: drop-shadow(0 -10px 5px rgba(255, 196, 0, 0.7));
     opacity: 0.7;
     transition: 0.1s;
+}
+.opacidad :hover {
+    filter: drop-shadow(0 -10px 5px rgba(255, 0, 0, 0.7));
+    opacity: 0.1;
+    transition: 0.3s;
 }
 
 img{
     filter: drop-shadow(0 -10px 20px rgba(0,0,0, 0.7));
 }
-.ataques-luffy {
-    display: flex;
-    justify-content: center;
-}
-.puño {
-    width: 15vh;
-    height: 15vh;
-}
-.patada {
-    width: 15vh;
-    height: 15vh;
-}
-.cabezaso {
-    width: 15vh;
-    height: 15vh;
-}
+
 .luffy {
-    width: 70vh;
-    height: 70vh;
-}
-.ataques-luffy {
     position: absolute;
-}
-.ataques-enemigo {
-    display: flex;
-    justify-content: center;
-}
-.enemigo {
-    width: 70vh;
+    right: 0;
     height: 70vh;
 }
 .fondo-pelea {
     background-image: url(200w.gif);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.kaido {
+    position: absolute;
+    left: 0;
+    height: 70vh;
+}
+.batazo {
+    position: absolute;
+    top: 70%; /* Coloca el batazo debajo de Kaido */
+    left: 10%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+  }
+.patada-kaido {
+    position: absolute;
+    top: 70%; /* Coloca el batazo debajo de Kaido */
+    left: 18%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+}
+.cabezazo-kaido {
+    position: absolute;
+    top: 70%; /* Coloca el batazo debajo de Kaido */
+    left: 30%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+}
+.puño {
+    position: absolute;
+    top: 70%; /* Coloca el batazo debajo de Kaido */
+    left: 80%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+}
+.patada {
+    position: absolute;
+    top: 70%; /* Coloca el batazo debajo de Kaido */
+    left: 90%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+}
+.cabezazo {
+    position: absolute;
+    top: 70%; /* Coloca el batazo debajo de Kaido */
+    left: 100%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
 }
