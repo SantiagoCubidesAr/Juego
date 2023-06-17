@@ -43,23 +43,31 @@ img{
     left: 0;
     height: 70vh;
 }
-.batazo {
+.puño {
     position: absolute;
-    top: 70%; /* Coloca el batazo debajo de Kaido */
-    left: 10%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-100%); /* Centra horizontalmente el batazo */
-    height: 10vh;
-    width: 15vh;
-  }
-.patada-kaido {
-    position: absolute;
-    top: 70%; /* Coloca el batazo debajo de Kaido */
-    left: 18%; /* Ajusta la posición horizontal según tus necesidades */
+    top: 80%; /* Coloca el batazo debajo de Kaido */
+    left: 45%; /* Ajusta la posición horizontal según tus necesidades */
     transform: translateX(-100%); /* Centra horizontalmente el batazo */
     height: 10vh;
     width: 15vh;
 }
-.cabezazo-kaido {
+.patada {
+    position: absolute;
+    top: 80%; /* Coloca el batazo debajo de Kaido */
+    left: 55%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+}
+.cabezazo {
+    position: absolute;
+    top: 80%; /* Coloca el batazo debajo de Kaido */
+    left: 65%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+}
+.contenedor {
     position: absolute;
     top: 70%; /* Coloca el batazo debajo de Kaido */
     left: 30%; /* Ajusta la posición horizontal según tus necesidades */
@@ -67,27 +75,30 @@ img{
     height: 10vh;
     width: 15vh;
 }
-.puño {
+.vida {
     position: absolute;
-    top: 70%; /* Coloca el batazo debajo de Kaido */
-    left: 80%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-100%); /* Centra horizontalmente el batazo */
-    height: 10vh;
-    width: 15vh;
+    top: 25%; /* Coloca el batazo debajo de Kaido */
+    left: 50%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-80%); /* Centra horizontalmente el batazo */
+    height: 2vh;
+    background-color: greenyellow;
+    width: 65vh;
 }
-.patada {
-    position: absolute;
-    top: 70%; /* Coloca el batazo debajo de Kaido */
-    left: 90%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-100%); /* Centra horizontalmente el batazo */
-    height: 10vh;
-    width: 15vh;
-}
-.cabezazo {
+.contenedor2 {
     position: absolute;
     top: 70%; /* Coloca el batazo debajo de Kaido */
     left: 100%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    transform: translateX(-80%); /* Centra horizontalmente el batazo */
     height: 10vh;
     width: 15vh;
+    border: 2;
+}
+.vida2 {
+    position: absolute;
+    top: 25%; /* Coloca el batazo debajo de Kaido */
+    left: 60%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 2vh;
+    background-color: greenyellow;
+    width: 65vh;
 }
