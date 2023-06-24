@@ -102,3 +102,60 @@ img{
     background-color: greenyellow;
     width: 65vh;
 }
+.defensa-luffy {
+    display: none;
+}
+
+.invisible {
+    display: none;
+}
+
+.mensaje-pelea {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+.mensaje-derrota {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 999;
+}
+.defensa1 {
+    position: absolute;
+    top: 80%; /* Coloca el batazo debajo de Kaido */
+    left: 45%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+}
+.defensa2 {
+    position: absolute;
+    top: 80%; /* Coloca el batazo debajo de Kaido */
+    left: 55%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+}
+.defensa3 {
+    position: absolute;
+    top: 80%; /* Coloca el batazo debajo de Kaido */
+    left: 65%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
+    height: 10vh;
+    width: 15vh;
+}
