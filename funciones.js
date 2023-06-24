@@ -1,7 +1,13 @@
-let ataque = document.getElementsByClassName('ataques-luffy');
-console.log(ataque);
-ataque.click == "puño" ? ataque = "puño"
-: ataque.click == "patada" ? ataque = "patada"
-: ataque = "cabezazo";
-console.log(ataque);
-
+let puño = document.getElementById('puño');
+let patada = document.getElementById('patada');
+let cabezazo = document.getElementById('cabezazo');
+let texto = document.getElementById('mensaje');
+let dano = 0;
+puño.onclick = ataques;
+patada.onclick = ataques;
+cabezazo.onclick = ataques;
+function ataques() {
+    puño.onclick ? dano = 10
+    : patada.onclick ? dano = 20
+    : dano = 30;
+}

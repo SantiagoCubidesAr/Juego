@@ -159,3 +159,14 @@ img{
     height: 10vh;
     width: 15vh;
 }
+.mensaje {
+    position: absolute;
+    top: 20%; /* Coloca el batazo debajo de Kaido */
+    left: 50%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-50%); /* Centra horizontalmente el batazo */
+    height: 4vh;
+    width: 50vh;
+    background-color:greenyellow;
+    text-align: center;
+    color: red;
+}
