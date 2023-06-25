@@ -71,71 +71,42 @@ img{
     position: absolute;
     top: 70%; /* Coloca el batazo debajo de Kaido */
     left: 30%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-100%); /* Centra horizontalmente el batazo */
-    height: 10vh;
-    width: 15vh;
+    transform: translateX(-25%); /* Centra horizontalmente el batazo */
+    height: 2vh;
+    width: 30%;
 }
 .vida {
     position: absolute;
-    top: 25%; /* Coloca el batazo debajo de Kaido */
-    left: 50%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-80%); /* Centra horizontalmente el batazo */
+    top: 70%; /* Coloca el batazo debajo de Kaido */
+    left: 30%; /* Ajusta la posición horizontal según tus necesidades */
+    transform: translateX(-100%); /* Centra horizontalmente el batazo */
     height: 2vh;
     background-color: greenyellow;
-    width: 65vh;
+    width: 100%;
 }
 .contenedor2 {
     position: absolute;
     top: 70%; /* Coloca el batazo debajo de Kaido */
     left: 100%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-80%); /* Centra horizontalmente el batazo */
-    height: 10vh;
-    width: 15vh;
+    transform: translateX(-105%); /* Centra horizontalmente el batazo */
+    height: 2vh;
+    width: 30%;
     border: 2;
 }
 .vida2 {
     position: absolute;
-    top: 25%; /* Coloca el batazo debajo de Kaido */
-    left: 60%; /* Ajusta la posición horizontal según tus necesidades */
+    top: 70%; /* Coloca el batazo debajo de Kaido */
+    left: 100%; /* Ajusta la posición horizontal según tus necesidades */
     transform: translateX(-100%); /* Centra horizontalmente el batazo */
     height: 2vh;
     background-color: greenyellow;
-    width: 65vh;
+    width: 100%;
 }
 .defensa-luffy {
-    display: none;
+    display: hidden;
 }
 
-.invisible {
-    display: none;
-}
-
-.mensaje-pelea {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
-    z-index: 999;
-}
-
-.mensaje-derrota {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
-    z-index: 999;
-}
-.defensa1 {
+#defensa1 {
     position: absolute;
     top: 80%; /* Coloca el batazo debajo de Kaido */
     left: 45%; /* Ajusta la posición horizontal según tus necesidades */
@@ -143,7 +114,7 @@ img{
     height: 10vh;
     width: 15vh;
 }
-.defensa2 {
+#defensa2 {
     position: absolute;
     top: 80%; /* Coloca el batazo debajo de Kaido */
     left: 55%; /* Ajusta la posición horizontal según tus necesidades */
@@ -151,7 +122,7 @@ img{
     height: 10vh;
     width: 15vh;
 }
-.defensa3 {
+#defensa3 {
     position: absolute;
     top: 80%; /* Coloca el batazo debajo de Kaido */
     left: 65%; /* Ajusta la posición horizontal según tus necesidades */
@@ -164,9 +135,19 @@ img{
     top: 20%; /* Coloca el batazo debajo de Kaido */
     left: 50%; /* Ajusta la posición horizontal según tus necesidades */
     transform: translateX(-50%); /* Centra horizontalmente el batazo */
-    height: 4vh;
+    height: 8vh;
     width: 50vh;
-    background-color:greenyellow;
     text-align: center;
-    color: red;
+    color: rgb(255, 2, 2);
+}
+.invisible {
+    display: none;
+}
+.caja-mensaje {
+    position: absolute;
+    top: 20%; /* Coloca el batazo debajo de Kaido */
+    left: 50%;
+    transform: translateX(-50%);
+    height: 8vh;
+    width: 50vh;
 }
