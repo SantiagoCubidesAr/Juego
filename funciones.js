@@ -97,7 +97,7 @@ function ataquePc() {
 
 function defensaPc() {
     var opcionesDefensa = ["puño", "patada", "cabezazo"];
-    var aleatorio = generarAleatorio();
+    aleatorio = generarAleatorio();
     defensaKaido = opcionesDefensa[aleatorio];
     calcularDanoKaido();
     verificarFinJuego();
@@ -150,13 +150,14 @@ function calcularDanoLuffy() {
 
 function verificarFinJuego() {
     if (vidaLuffy <= 0 && vidaKaido <= 0) {
-        texto.textContent = "¡Es un empate!";
-    } else if (vidaLuffy <= 0) {
-        texto.textContent = "¡Kaido gana!";
+         texto.textContent = "¡Es un empate!";
     } else if (vidaKaido <= 0) {
         texto.textContent = "¡Luffy gana!";
+    } else if (vidaLuffy <= 0){
+    texto.textContent = "¡Kaido gana!";
     }
-}
+} 
+   
 
 function generarAleatorio() {
     return Math.floor(Math.random() * 3);
