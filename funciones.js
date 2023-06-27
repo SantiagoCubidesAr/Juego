@@ -7,6 +7,7 @@ let defensa3 = document.getElementById('defensa3');
 let texto = document.getElementById('mensaje');
 let barraVidaKaido = document.querySelector('.vida');
 let barraVidaLuffy = document.querySelector('.vida2');
+let AtDef = document.getElementsByTagName('h1')
 
 // Variables de juego
 let ataqueLuffy;
@@ -27,6 +28,7 @@ puño.addEventListener('click', function(){
 
 patada.addEventListener('click', function(){
     ataqueLuffy = "patada";
+    AtDef.innerHTML = "Ataque"; 
     desactivarAtaques();
     activarDefensa();
     defensaPc();
@@ -151,10 +153,16 @@ function calcularDanoLuffy() {
 function verificarFinJuego() {
     if (vidaLuffy <= 0 && vidaKaido <= 0) {
          texto.textContent = "¡Es un empate!";
+         desactivarAtaques();
+         desactivarDefensa();
     } else if (vidaKaido <= 0) {
         texto.textContent = "¡Luffy gana!";
+        desactivarAtaques();
+         desactivarDefensa();
     } else if (vidaLuffy <= 0){
-    texto.textContent = "¡Kaido gana!";
+        texto.textContent = "¡Kaido gana!";
+        desactivarAtaques();
+         desactivarDefensa();
     }
 } 
    
