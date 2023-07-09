@@ -70,37 +70,33 @@ img{
 .contenedor {
     position: absolute;
     top: 70%; /* Coloca el batazo debajo de Kaido */
-    left: 30%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-25%); /* Centra horizontalmente el batazo */
+    left: 1%; /* Ajusta la posición horizontal según tus necesidades */ /* Centra horizontalmente el batazo */
     height: 2vh;
     width: 30%;
+    border: 2px solid black;
 }
 .vida {
-    position: absolute;
-    top: 70%; /* Coloca el batazo debajo de Kaido */
-    left: 30%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-100%); /* Centra horizontalmente el batazo */
-    height: 2vh;
-    background-color: greenyellow;
+    position: absolute;/* Ajusta la posición horizontal según tus necesidades */ /* Centra horizontalmente el batazo */
+    height: 1.8vh;
+    background-color: rgb(119, 0, 255);
     width: 100%;
+    text-align: center;
 }
 .contenedor2 {
     position: absolute;
     top: 70%; /* Coloca el batazo debajo de Kaido */
-    left: 100%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-105%); /* Centra horizontalmente el batazo */
+    left: 69%; /* Ajusta la posición horizontal según tus necesidades */ /* Centra horizontalmente el batazo */
     height: 2vh;
     width: 30%;
-    border: 2;
+    border: 2px solid black;
+    text-align: right;
 }
 .vida2 {
-    position: absolute;
-    top: 70%; /* Coloca el batazo debajo de Kaido */
-    left: 100%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-100%); /* Centra horizontalmente el batazo */
-    height: 2vh;
-    background-color: greenyellow;
+    position: absolute;/*ades */ /* Centra horizontalmente el batazo */
+    height: 1.8vh;
+    background-color:red;
     width: 100%;
+    text-align: center;
 }
 .defensa-luffy {
     display: hidden;
@@ -130,11 +126,7 @@ img{
     height: 10vh;
     width: 15vh;
 }
-.mensaje {
-    position: absolute;
-    top: 20%; /* Coloca el batazo debajo de Kaido */
-    left: 50%; /* Ajusta la posición horizontal según tus necesidades */
-    transform: translateX(-50%); /* Centra horizontalmente el batazo */
+.mensaje { /* Ajusta la posición horizontal según tus necesidades */ /* Centra horizontalmente el batazo */
     height: 8vh;
     width: 50vh;
     text-align: center;
@@ -146,14 +138,17 @@ img{
 .caja-mensaje {
     position: absolute;
     top: 20%; /* Coloca el batazo debajo de Kaido */
-    left: 50%;
-    transform: translateX(-50%);
-    height: 8vh;
+    left: 40%;
+    height: 10vh;
     width: 50vh;
-    border: 2px solid black;
+    
 }
 h1 {
     position: absolute;
     top: 70%; /* Coloca el batazo debajo de Kaido */
     left: 45%;
+}
+.creditos{
+    position: absolute;
+    top: 100%;
 }
