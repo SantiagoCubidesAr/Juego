@@ -7,6 +7,7 @@ let defensa3 = document.getElementById('defensa3');
 let texto = document.getElementById('mensaje');
 let barraVidaKaido = document.querySelector('.vida');
 let barraVidaLuffy = document.querySelector('.vida2');
+let defAt = document.getElementById('mensaje-botones');
 
 // Variables de juego
 let ataqueLuffy;
@@ -16,6 +17,7 @@ let defensaKaido;
 let vidaLuffy = 100;
 let vidaKaido = 100;
 
+defAt.innerHTML = "Elige un ataque";
 desactivarDefensa();
 // Event listeners para los botones de ataque de Luffy
 puño.addEventListener('click', function(){
@@ -61,6 +63,10 @@ defensa3.addEventListener('click', function(){
     ataquePc();
 });
 
+function desactivarAtaques() {
+    puño.classList.add('invisible');
+    patada.classList.add('invisible');
+}
 // Funciones de juego
 function desactivarAtaques() {
     puño.classList.add('invisible');
@@ -72,6 +78,8 @@ function activarAtaques() {
     puño.classList.remove('invisible');
     patada.classList.remove('invisible');
     cabezazo.classList.remove('invisible');
+    defAt.innerHTML = "Elige un ataque";
+
 }
 
 function desactivarDefensa() {
@@ -84,6 +92,7 @@ function activarDefensa() {
     defensa1.classList.remove('invisible');
     defensa2.classList.remove('invisible');
     defensa3.classList.remove('invisible');
+    defAt.innerHTML = "Elige una defensa";
     // Agrega esta línea para ocultar los botones de ataque cuando se muestren los botones de defensa
 }
 
@@ -151,10 +160,19 @@ function calcularDanoLuffy() {
 function verificarFinJuego() {
     if (vidaLuffy <= 0 && vidaKaido <= 0) {
          texto.textContent = "¡Es un empate!";
+         desactivarAtaques();
+         desactivarDefensa();
+         defAt.innerHTML = "";
     } else if (vidaKaido <= 0) {
         texto.textContent = "¡Luffy gana!";
+        desactivarAtaques();
+         desactivarDefensa();
+         defAt.innerHTML = "";
     } else if (vidaLuffy <= 0){
-    texto.textContent = "¡Kaido gana!";
+        texto.textContent = "¡Kaido gana!";
+        desactivarAtaques();
+         desactivarDefensa();
+         defAt.innerHTML = "";
     }
 } 
    
