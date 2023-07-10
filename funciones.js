@@ -63,10 +63,6 @@ defensa3.addEventListener('click', function(){
     ataquePc();
 });
 
-function desactivarAtaques() {
-    puño.classList.add('invisible');
-    patada.classList.add('invisible');
-}
 // Funciones de juego
 function desactivarAtaques() {
     puño.classList.add('invisible');
