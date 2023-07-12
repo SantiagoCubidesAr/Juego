@@ -10,10 +10,7 @@ let barraVidaLuffy = document.querySelector('.vida2');
 let defAt = document.getElementById('mensaje-botones');
 
 // Variables de juego
-let ataqueLuffy;
-let ataqueKaido;
-let defensaLuffy;
-let defensaKaido;
+let ataqueLuffy, ataqueKaido, defensaLuffy, defensaKaido;
 let vidaLuffy = 100;
 let vidaKaido = 100;
 
@@ -91,6 +88,11 @@ function activarDefensa() {
     defAt.innerHTML = "Elige una defensa";
     // Agrega esta línea para ocultar los botones de ataque cuando se muestren los botones de defensa
 }
+
+function generarAleatorio() {
+    return Math.floor(Math.random() * 3);
+}
+
 
 function ataquePc() {
     var opcionesAtaque = ["puño", "patada", "cabezazo"];
@@ -173,6 +175,3 @@ function verificarFinJuego() {
 } 
    
 
-function generarAleatorio() {
-    return Math.floor(Math.random() * 3);
-}
