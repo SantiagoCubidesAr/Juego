@@ -21,15 +21,15 @@
 
 .contenedor-boton span {
     font-size: 50px;
-    transform: translate(-50%, -50%) rotate(-30deg);
+    transform: rotate(-30deg);
     position: absolute; 
-    top: 51%; 
-    left: 50%; 
-    color: rgb(235, 225, 225); 
-    opacity: 0.8;
-    transition: 0.1s;
+    top: 53%; 
+    left: 46%; 
+    color: rgb(235, 225, 225);
   }
-
+  .contenedor-boton:hover span {
+    opacity: 0;
+  }
 .opacidad {
     background-color: transparent;
     border: none; 
@@ -93,8 +93,7 @@
     display: hidden;
 }
 .mensaje { 
-    height: 8vh;
-    width: 48vh;
+    font-size: larger;
     text-align: center;
     color: rgb(15, 15, 15);
 }
