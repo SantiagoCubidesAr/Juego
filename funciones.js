@@ -8,6 +8,8 @@ let texto = document.getElementById('mensaje');
 let barraVidaKaido = document.querySelector('.vida');
 let barraVidaLuffy = document.querySelector('.vida2');
 let defAt = document.getElementById('mensaje-botones');
+let reiniciar = document.getElementById('boton-reiniciar');
+let regresar = document.getElementById('boton-regresar');
 
 // Variables de juego
 let ataqueLuffy, ataqueKaido, defensaLuffy, defensaKaido;
@@ -161,16 +163,22 @@ function verificarFinJuego() {
          desactivarAtaques();
          desactivarDefensa();
          defAt.innerHTML = "";
+         reiniciar.classList.remove('invisible');
+         regresar.classList.remove('invisible');
     } else if (vidaKaido <= 0) {
         texto.textContent = "¡Luffy gana!";
         desactivarAtaques();
          desactivarDefensa();
          defAt.innerHTML = "";
+         reiniciar.classList.remove('invisible');
+         regresar.classList.remove('invisible');
     } else if (vidaLuffy <= 0){
         texto.textContent = "¡Kaido gana!";
         desactivarAtaques();
          desactivarDefensa();
          defAt.innerHTML = "";
+         reiniciar.classList.remove('invisible');
+         regresar.classList.remove('invisible');
     }
 } 
    
