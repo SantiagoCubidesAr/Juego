@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .fondo-inicio {
-   background-image: url(giphy.gif);
+   background-image: url(img/giphy.gif);
    background-size: cover;
    background-repeat: no-repeat;
 }
@@ -47,7 +47,7 @@
     height: 70vh;
 }
 .fondo-pelea {
-    background-image: url(200w.gif);
+    background-image: url(img/200w.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
